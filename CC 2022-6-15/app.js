@@ -34,4 +34,5 @@ function weatherInfo (temp) {
 
   //we can combine two functions into one, declare a variable using the formular, and using if else statement.
 
-  
+  weatherInfo(50) //10 is above freezing temperature
+  weatherInfo(23)  //-5 is freezing temperature
