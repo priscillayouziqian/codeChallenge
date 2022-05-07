@@ -10,3 +10,8 @@ const arr = N =>{ //arr is function name, N is parameter
     return arr
 } 
 
+// For example, the following code will result in an array containing the numbers 0 to 4:
+
+arr(5) // => [0,1,2,3,4]
+arr(6) //  => [0,1,2,3,4,5]
+arr(7)  //  => [0,1,2,3,4,5,6]
