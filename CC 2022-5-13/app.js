@@ -17,3 +17,9 @@ function numInArray(arr,num){
 
 numInArray([1,2,3],4)//should return false
 numInArray([7,6,3,2],6)//should return true
+
+//second attempt and answer
+function numInArray(arr,num){
+    return arr.includes(num)
+}
+//I was going about returned a new array with just falses and trues, and I needed just one. The new way is much less complicated.
