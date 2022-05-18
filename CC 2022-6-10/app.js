@@ -14,3 +14,6 @@ function between(a,b){
     }
   return array //when the loop done, return the whole array with stored intergers
 }
+
+between(1,4) //[ 1, 2, 3, 4 ]
+between(-2, 2) //[-2, -1, 0, 1, 2]
