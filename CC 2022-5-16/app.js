@@ -13,7 +13,11 @@
 //Make a fuction that takes in an array
 
 function doubled(arr){
+    if(arr.length === 0 || arr === undefined){
+        console.log('Array is invalid')
+    }else{
     return arr.map(element=>element*2)
+    }
 }
 
 
@@ -23,3 +27,4 @@ function doubled(arr){
 //            (3=>3*2) -> 6
 //            [2,3,6]
 doubled([1,2,3])
+console.log(doubled([]))
