@@ -9,3 +9,10 @@ function problem(x){
         return 'Error'
     }
 }
+
+//Examples:
+problem('hello') //return Error
+problem('anything word') //return Error
+problem(1) //return 56
+problem(2) //return 106
+problem(10) //return 506
