@@ -22,3 +22,8 @@ function saleHotdogs(n){
     //we need to return how much the customer need to pay in total: n is number, price is the single price, total price should n * single price accordingly.
     return (n<5) ? n * 100 : (n>=5 && n<10) ? n * 95 : n * 90
 }
+
+//examples:
+saleHotdogs(1) //100
+saleHotdogs(5) //475
+saleHotdogs(10) //900
