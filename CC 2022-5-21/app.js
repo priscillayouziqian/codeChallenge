@@ -19,7 +19,7 @@ function everyOther(arr){
     let newArr = []
     //make a for loop where I can grab index number
     for(i=0;i<=arr.length;i++){
-        if(i % 2 === 0){ 
+        if(i % 2 === 0){ //like arr[0] goes to new array, arr[2] too
             newArr.push(arr[i])
         }
     }
@@ -32,3 +32,4 @@ function everyOther(arr){
 everyOther([1,3,'fish','fishsticks',3]) //[1,'fish',3]
 everyOther([9,9,99,999,3]) //[9,99,3]
 everyOther(['tulip','rose', 'rosemary','waterlily', 'bamboo']) //['tulip','rosemary','bamboo']
+
