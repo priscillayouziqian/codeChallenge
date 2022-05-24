@@ -25,3 +25,9 @@ function getRealFloor(n){
         return n
     }
 }
+
+//Examples:
+getRealFloor(1) //should return 0
+getRealFloor(5) //should return 4
+getRealFloor(15) //should return 13
+getRealFloor(-2) //should return -2
