@@ -18,3 +18,7 @@ function generateRange(min, max, step){
     return array
 }
 
+//Examples:
+generateRange(2,10,2) //should return [2,4,6,8,10]
+generateRange(1,10,3) //should return [1,4,7,10]
+generateRange(1,10,4) //should return [1,5,9]
