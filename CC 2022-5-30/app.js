@@ -9,7 +9,6 @@ function index(arr, n){
     return isNaN(arr[n]**n) ? -1 : arr[n]**n
 }
 
-//Example:
-index([2,4,5,6], 2) //should return 5**2=25
-index([98,6,33,2,0], 3) //should return 2**3=8
-index([100,98,33,22], 5) //should return -1, due to there is no index 5 in the array.
+//Example:index([2,4,5,6], 2) should return 5**2=25
+//index([98,6,33,2,0], 3) should return 2**3=8
+//index([100,98,33,22], 5) should return -1, due to there is no index 5 in the array.
