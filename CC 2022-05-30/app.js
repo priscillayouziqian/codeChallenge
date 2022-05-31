@@ -21,3 +21,8 @@ function checkAlive (health){
     return !(health <= 0) 
     //check return if health<=0 a false statement, if yes, then !(health<=0) is true statement.
 }
+
+//Example:
+checkAlive(5) //should return true
+checkAlive(0) //should return false
+checkAlive(-10) //should return false
