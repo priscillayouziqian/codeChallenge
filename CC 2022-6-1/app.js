@@ -11,6 +11,6 @@ function well(x){
 
 
 //Example: 
-//well(['bad', 'bad', 'bad']) should return 'Fail!'
-//well(['good', 'bad', 'bad', 'bad', 'bad']) should return 'Publish!'
-//well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']) should return 'I smell a series!
+well(['bad', 'bad', 'bad']) //should return 'Fail!'
+well(['good', 'bad', 'bad', 'bad', 'bad']) //should return 'Publish!'
+well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']) //should return 'I smell a series!
