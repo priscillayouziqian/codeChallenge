@@ -15,6 +15,7 @@ function nthEven(n){
 
 //Example:
 nthEven(1) //should return 0
+nthEven(2) //should return 2
 nthEven(3) //should return 4
 nthEven(100) //should return 198
 nthEven(1298734) //should return 2597466
