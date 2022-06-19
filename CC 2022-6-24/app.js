@@ -6,3 +6,6 @@ function repeatStr(n, s){
     return s.repeat(n) //prototype is repeat() returns a string with a number of copies of a string and it is a new string.
 } 
 
+repeatStr(3, "*") // "***"
+repeatStr(5, "#") // "#####"
+repeatStr(2, "ha ") // "ha ha "
