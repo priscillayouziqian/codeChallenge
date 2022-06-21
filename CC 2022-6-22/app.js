@@ -4,6 +4,9 @@
 
 function makeNegative(num){
     return num > 0 ? -num : num < 0 ? num : 0
+    //num>0, return opposit num
+    //num<0, means the number is already negative, so just return the original num, no need to change
+    //else, the only left case is the number is zero, just return 0
 }
 
 //Examples:
