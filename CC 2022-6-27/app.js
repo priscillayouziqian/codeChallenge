@@ -13,3 +13,7 @@ function replace(s){
     //then, check if the new array if includes vowels in the array vowels, using map(), if yes, replace by !, if no, return the same item.
     //last, after replacing all vowels, join the array into a string.
 }
+
+replace("Hi!") //'H!!'
+replace("!Hi! Hi!") //"!H!! H!!"
+replace("ABCDE") //"!BCD!"
