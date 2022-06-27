@@ -1,6 +1,6 @@
 # codeChallenge
 
-Everyday coding challenge for JavaScript. This is me [below GIFs] when I try to solve a coding challenge at the **beginning.** But when I keep pushing it, I am addicted to it surprisingly.
+Everyday coding challenge for JavaScript. This is me [below GIFs] when I try to solve a coding challenge at the **beginning.** But keep pushing, more fun.
 
 ![alt tag](https://media.giphy.com/media/HLB0nLA36GCCo6JuB5/giphy.gif)
 
