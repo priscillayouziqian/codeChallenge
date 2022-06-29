@@ -16,3 +16,11 @@ function countSheeps(arrayOfSheeps){
     return arrayOfSheeps.filter(Boolean).length
     //filter(Boolean) is a shorthand to check which one is true
 }
+
+var array1 = [true,  true,  true,  false,
+    true,  true,  true,  true ,
+    true,  false, true,  false,
+    true,  false, false, true ,
+    true,  true,  true,  true ,
+    false, false, true,  true ];
+countSheeps(array1) //return 17
