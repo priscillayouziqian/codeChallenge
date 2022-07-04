@@ -14,3 +14,7 @@ function capitalizedWord(word){
     //combine them together and return
     return firstLetterCapital+restLowerCase
 }
+
+capitalizedWord('hello')  //'Hello'
+capitalizedWord('thank you') //'Thank you'
+capitalizedWord('Here is your money') //'Here is your money'
