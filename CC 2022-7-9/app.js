@@ -27,3 +27,20 @@ function basicOp(operation, value1, value2){
 basicOp('-',2,3) //-1
 basicOp('+',4,7) //11
 basicOp('*',5,5) //25
+
+//solution 2:
+function basicOp(operation, value1, value2){
+    switch(operation){
+        case '+': return value1+value2;
+        break;
+        case '-': return value1-value2;
+        break;
+        case '*': return value1*value2;
+        break;
+        case '/': return value1/value2;
+        default: return 0
+    }
+}
+basicOp('-',2,3) //-1
+basicOp('+',4,7) //11
+basicOp('*',5,5) //25
