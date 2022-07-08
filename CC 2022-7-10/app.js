@@ -20,3 +20,16 @@ function hello(name) {
   hello('johN') //"Hello, John!"
   hello('aliCE') //"Hello, Alice!"
   hello() //"Hello, World!"
+
+  //Another solution:
+  function hello(name) {
+    if(name == null || name == ""){
+      return 'Hello, World!'
+    }else{
+      return `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`
+    }
+  }
+
+  hello('johN') //"Hello, John!"
+  hello('aliCE') //"Hello, Alice!"
+  hello() //"Hello, World!"
