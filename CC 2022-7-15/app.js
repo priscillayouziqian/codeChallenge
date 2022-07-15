@@ -11,3 +11,7 @@ function getChar(c){
     return String.fromCharCode(c)
     //googling "ascii format in string js", there is String.fromCharCode()
 }
+
+getChar(55) //7
+getChar(56) //8
+getChar(57) //9
