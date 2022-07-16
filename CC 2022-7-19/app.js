@@ -24,4 +24,7 @@ function peopleWithAgeDrink(old) {
     }
     return `drink ${drink}`
   };
-  
+
+  peopleWithAgeDrink(13) //"drink toddy"
+  peopleWithAgeDrink(17) //"drink coke"
+  peopleWithAgeDrink(18) //"drink beer"
