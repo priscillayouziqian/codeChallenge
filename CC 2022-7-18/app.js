@@ -15,4 +15,6 @@ function remove (string) {
     }
   }
 
-  
+  remove('Hi!') //"Hi"
+  remove('Hi!!!') //"Hi!!"
+  remove('!Hi') //"!Hi"
