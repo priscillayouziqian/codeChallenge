@@ -16,4 +16,5 @@ var summation = function (num) {
     return sum;
   }
 
-  
+ summation(2) //3
+ summation(8) //36
