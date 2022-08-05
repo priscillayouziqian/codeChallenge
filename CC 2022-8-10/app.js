@@ -27,3 +27,32 @@ function decoder(code){
     }
     return wordNoNum;
 }
+
+// Provided Solution
+const decoder = code => {
+  // Divide up the string so we have each element at a unique index.
+  let splitStr = code.split('')
+  // The string we will return, initialize to an empty string.
+  let result = ''
+
+  for (let i = 0; i < splitStr.length; i++) {
+    // Check to see if the current number is not NOT a number (aka is a number).
+    typeof +splitStr[i] === "number"; // Return true
+    typeof NaN === "number"; // Returns true
+    if (!Number.isNaN(+splitStr[i])) {
+      // If it is, add that number to our increment. That's how many we need to skip.
+      i += +splitStr[i]
+    } else {
+      // If it's not a number (aka a string), add it to the result.
+      result += splitStr[i]
+    }
+  }
+
+  return result
+}
+
+// Playing with NaN
+console.log(isNaN("Hello"))
+console.log(Number("hello"));
+console.log(Number.isNaN(+"NaN"))
+console.log(typeof NaN);
